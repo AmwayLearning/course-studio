@@ -21,4 +21,5 @@ Courses are saved in a Google Sheet + Google Drive (see `SETUP-STEPS.md`), or on
 | `runtime/` | The course player that goes inside every exported course |
 | `sw.js` | Lets the studio play courses straight from a zip, with a test LRS for previews |
 | `vendor/` | JSZip, CodeMirror and a QR code library |
+| `course-editor/` | **Course Editor**: open a course zip Sapi built, click any text in the preview and type, swap pictures, links, videos and colours, then export a new xAPI zip. Live at `/course-studio/course-editor/`. `index.html` is the built single file (JSZip inlined); `src.html` is the source. |
 | `apps-script/Code.gs` | The Google Apps Script that stores courses in your Sheet and Drive |
